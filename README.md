@@ -5,7 +5,7 @@ At the beginning, it's only flash led ont PIFACE.
 In the future, I'm going to porting the others peripherial functions to make it bacome camera with infrared led.
 
 1.  Download toolchain from [here](https://github.com/raspberrypi/tools/tree/master/arm-bcm2708)
-    or [here](git@github.com:frank71726/pi_cross.git)-including rootfs.
+    or [here](git@github.com:frank71726/pi_cross.git) - including rootfs.
 2.  Adding code as below to $HOME/.bashrc
 
         export RPI_ROOT="/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi"
