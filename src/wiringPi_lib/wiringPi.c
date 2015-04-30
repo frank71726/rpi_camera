@@ -1218,6 +1218,7 @@ void pinMode (int pin, int mode)
     else if (wiringPiMode != WPI_MODE_GPIO)
       return ;
 
+
     softPwmStop  (origPin) ;
     softToneStop (origPin) ;
 
@@ -1392,6 +1393,37 @@ void digitalWrite (int pin, int value)
     if ((node = wiringPiFindNode (pin)) != NULL)
       node->digitalWrite (node, pin, value) ;
   }
+}
+/*
+ * i2c_Read:
+ *	Read the value of a given Pin, returning HIGH or LOW
+ *********************************************************************************
+ */
+
+int fr_i2cRead (int pin, int reg)
+{
+  struct wiringPiNodeStruct *node = wiringPiNodes ;
+
+    if ((node = wiringPiFindNode (pin)) == NULL)
+      return 0;
+    return node->i2cRead (node, reg) ;
+}
+
+
+/*
+ * i2cWrite:
+ *	Set an output bit
+ *********************************************************************************
+ */
+
+void fr_i2cWrite (int pin, int reg, int value)
+{
+  struct wiringPiNodeStruct *node = wiringPiNodes ;
+
+    if ((node = wiringPiFindNode (pin)) != NULL)
+    {
+        node->i2cWrite (node, reg, value) ;
+    }
 }
 
 

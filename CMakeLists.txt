@@ -16,7 +16,7 @@ ENDIF()
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_GNU_SOURCE")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_GNU_SOURCE ")
 
 #############################################################################################
 # Create a folder and mount via sshfs the raspberry partition in order to copy binary to rpi with

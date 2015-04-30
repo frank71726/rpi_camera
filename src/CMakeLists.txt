@@ -5,7 +5,7 @@ find_package(Threads REQUIRED)
 include_directories(${PROJECT_SOURCE_DIR}/src/wiringPi_lib)
 link_directories(${PROJECT_SOURCE_DIR}/src/wiringPi_lib)
 
-add_executable(piface_prj blink.c)
+add_executable(piface_prj blink.c button.c fr_softServo.c)
 
 target_link_libraries(piface_prj ${CMAKE_THREAD_LIBS_INIT})
 
