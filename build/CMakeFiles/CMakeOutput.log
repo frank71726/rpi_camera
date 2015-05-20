@@ -1,0 +1,274 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 3.2.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2453241604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2453241604.dir/build.make CMakeFiles/cmTryCompileExec2453241604.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2453241604.dir/testCCompiler.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -o CMakeFiles/cmTryCompileExec2453241604.dir/testCCompiler.c.o   -c /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2453241604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2453241604.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc         CMakeFiles/cmTryCompileExec2453241604.dir/testCCompiler.c.o  -o cmTryCompileExec2453241604 -rdynamic 
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1635050976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1635050976.dir/build.make CMakeFiles/cmTryCompileExec1635050976.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -o CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1635050976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1635050976.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc       -v CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1635050976 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/lto-wrapper
+Target: arm-bcm2708hardfp-linux-gnueabi
+Configured with: /home/extra/crosstool/staginghf/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-bcm2708hardfp-linux-gnueabi --prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi --with-sysroot=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-languages=c,c++ --with-cpu=arm1176jzf-s --with-tune=arm1176jzf-s --with-float=hard --with-pkgversion='crosstool-NG 1.15.2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --with-gmp=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpfr=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpc=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-ppl=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-cloog=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-libelf=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-c99 --enable-long-long --with-float=hard
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG 1.15.2) 
+COMPILER_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/bin/
+LIBRARY_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1635050976' '-rdynamic' '-mcpu=arm1176jzf-s' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2 --sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec1635050976 /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1 -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-bcm2708hardfp-linux-gnueabi-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1635050976/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1635050976.dir/build.make CMakeFiles/cmTryCompileExec1635050976.dir/build]
+  ignore line: [make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -o CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1635050976]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1635050976.dir/link.txt --verbose=1]
+  ignore line: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc       -v CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1635050976 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/lto-wrapper]
+  ignore line: [Target: arm-bcm2708hardfp-linux-gnueabi]
+  ignore line: [Configured with: /home/extra/crosstool/staginghf/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-bcm2708hardfp-linux-gnueabi --prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi --with-sysroot=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-languages=c,c++ --with-cpu=arm1176jzf-s --with-tune=arm1176jzf-s --with-float=hard --with-pkgversion='crosstool-NG 1.15.2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --with-gmp=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpfr=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpc=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-ppl=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-cloog=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-libelf=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-c99 --enable-long-long --with-float=hard]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG 1.15.2) ]
+  ignore line: [COMPILER_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1635050976' '-rdynamic' '-mcpu=arm1176jzf-s' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2 --sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec1635050976 /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1 -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o]
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2] ==> ignore
+    arg [--sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1635050976] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec1635050976.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/lib]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/lib]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/lib;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/lib;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3340089997/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3340089997.dir/build.make CMakeFiles/cmTryCompileExec3340089997.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3340089997.dir/testCXXCompiler.cxx.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++     -o CMakeFiles/cmTryCompileExec3340089997.dir/testCXXCompiler.cxx.o -c /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3340089997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3340089997.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++          CMakeFiles/cmTryCompileExec3340089997.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3340089997 -rdynamic 
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3053342202/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3053342202.dir/build.make CMakeFiles/cmTryCompileExec3053342202.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++     -o CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3053342202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3053342202.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++        -v CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3053342202 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/lto-wrapper
+Target: arm-bcm2708hardfp-linux-gnueabi
+Configured with: /home/extra/crosstool/staginghf/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-bcm2708hardfp-linux-gnueabi --prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi --with-sysroot=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-languages=c,c++ --with-cpu=arm1176jzf-s --with-tune=arm1176jzf-s --with-float=hard --with-pkgversion='crosstool-NG 1.15.2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --with-gmp=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpfr=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpc=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-ppl=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-cloog=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-libelf=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-c99 --enable-long-long --with-float=hard
+Thread model: posix
+gcc version 4.7.1 20120402 (prerelease) (crosstool-NG 1.15.2) 
+COMPILER_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/bin/
+LIBRARY_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3053342202' '-rdynamic' '-shared-libgcc' '-mcpu=arm1176jzf-s' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2 --sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3053342202 /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1 -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-bcm2708hardfp-linux-gnueabi-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3053342202/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3053342202.dir/build.make CMakeFiles/cmTryCompileExec3053342202.dir/build]
+  ignore line: [make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++     -o CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3053342202]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3053342202.dir/link.txt --verbose=1]
+  ignore line: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++        -v CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3053342202 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/lto-wrapper]
+  ignore line: [Target: arm-bcm2708hardfp-linux-gnueabi]
+  ignore line: [Configured with: /home/extra/crosstool/staginghf/.build/src/gcc-linaro-4.7-2012.04/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-bcm2708hardfp-linux-gnueabi --prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi --with-sysroot=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-languages=c,c++ --with-cpu=arm1176jzf-s --with-tune=arm1176jzf-s --with-float=hard --with-pkgversion='crosstool-NG 1.15.2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --with-gmp=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpfr=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-mpc=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-ppl=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-cloog=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-libelf=/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm -L/home/extra/crosstool/staginghf/.build/arm-bcm2708hardfp-linux-gnueabi/buildtools/lib -lpwl' --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/home/dc4/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot --enable-c99 --enable-long-long --with-float=hard]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120402 (prerelease) (crosstool-NG 1.15.2) ]
+  ignore line: [COMPILER_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib/:/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3053342202' '-rdynamic' '-shared-libgcc' '-mcpu=arm1176jzf-s' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2 --sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec3053342202 /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1 -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib -L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o /home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o]
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../libexec/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/collect2] ==> ignore
+    arg [--sysroot=/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3053342202] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtbegin.o] ==> ignore
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib]
+    arg [-L/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib] ==> dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3053342202.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/crtend.o] ==> ignore
+    arg [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/lib]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/lib]
+  collapse dir [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib] ==> [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/lib/gcc;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/lib;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/lib;/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/arm-bcm2708hardfp-linux-gnueabi/sysroot/usr/lib]
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec920407182/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec920407182.dir/build.make CMakeFiles/cmTryCompileExec920407182.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec920407182.dir/CheckIncludeFiles.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc   -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections   -g   -o CMakeFiles/cmTryCompileExec920407182.dir/CheckIncludeFiles.c.o   -c /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec920407182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec920407182.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections   -g    CMakeFiles/cmTryCompileExec920407182.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec920407182 -rdynamic 
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1963355656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1963355656.dir/build.make CMakeFiles/cmTryCompileExec1963355656.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1963355656.dir/CheckFunctionExists.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc   -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections  -DCHECK_FUNCTION_EXISTS=pthread_create -g   -o CMakeFiles/cmTryCompileExec1963355656.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1963355656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1963355656.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections  -DCHECK_FUNCTION_EXISTS=pthread_create -g    CMakeFiles/cmTryCompileExec1963355656.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1963355656 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+
+

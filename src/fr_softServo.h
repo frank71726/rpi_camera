@@ -6,6 +6,7 @@ extern "C" {
 #endif
 
 #define	MAX_SERVOS	1
+#define SERVO_0     0/* pin7, gpio4*/
 pthread_mutex_t lock_servo;
 
 extern int fr_softServoSetup(int);
