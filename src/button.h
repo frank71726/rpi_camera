@@ -5,9 +5,8 @@
 extern "C" {
 #endif
 
-extern void blinkSetup(void);
+extern void buttonSetup(void);
 extern void blinkthreadStop (void);
-
 
 #ifdef __cplusplus
 }

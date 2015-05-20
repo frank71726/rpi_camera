@@ -1,0 +1,50 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3857356034/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3857356034.dir/build.make CMakeFiles/cmTryCompileExec3857356034.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3857356034.dir/CheckSymbolExists.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc   -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections   -g   -o CMakeFiles/cmTryCompileExec3857356034.dir/CheckSymbolExists.c.o   -c /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Werror=edantic]
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTryCompileExec3857356034.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3857356034/fast] Error 2
+
+File /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2747885493/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2747885493.dir/build.make CMakeFiles/cmTryCompileExec2747885493.dir/build
+make[1]: Entering directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2747885493.dir/CheckFunctionExists.c.o
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc   -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections  -DCHECK_FUNCTION_EXISTS=pthread_create -g   -o CMakeFiles/cmTryCompileExec2747885493.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2747885493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2747885493.dir/link.txt --verbose=1
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-gcc    -D_GNU_SOURCE  -fPIC  -W -Wall -Werror=return-type -Wno-long-long -pedantic -ansi -Wcast-align -Wstrict-aliasing=2 -Werror -ffunction-sections  -DCHECK_FUNCTION_EXISTS=pthread_create -g    CMakeFiles/cmTryCompileExec2747885493.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2747885493 -rdynamic -lpthreads 
+/home/frank/hpbProject/pi_cross/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/../lib/gcc/arm-bcm2708hardfp-linux-gnueabi/4.7.1/../../../../arm-bcm2708hardfp-linux-gnueabi/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2747885493] Error 1
+make[1]: Leaving directory `/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2747885493/fast] Error 2
+
+

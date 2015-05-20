@@ -1,0 +1,2 @@
+/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/src/wiringPi_lib/CMakeFiles/piface_lib.dir
+/home/frank/hpbProject/RaspberryPi/rpi_prj/rpi_piface/build/src/CMakeFiles/piface_prj.dir

@@ -23,7 +23,9 @@
  */
 
 #include <stdio.h>
+#include <string.h>
 #include <pthread.h>
+#include <errno.h>
 
 #include "wiringPi.h"
 #include "wiringPiI2C.h"
@@ -31,7 +33,15 @@
 
 #include "mcp23017.h"
 
+/*
+ * globalCounter:
+ *	Global variable to count interrupts
+ *	Should be declared volatile to make sure the compiler doesn't cache it.
+ */
+static volatile int globalCounter;
 
+
+static volatile pthread_t thread_is24c16;
 /*
  * myPinMode:
  *********************************************************************************
@@ -185,6 +195,77 @@ static char myI2CRead (struct wiringPiNodeStruct *node, int reg)
 }
 
 /*
+ * myInterrupt:
+ *********************************************************************************
+ */
+void myInterrupt5 (void) { ++globalCounter ; }
+
+static PI_THREAD (is24c16_thread)
+{
+    int gotOne ;
+    int myCounter;
+    int num, i;
+    int* j=(int*)dummy;
+    j++;
+
+    i = 0;
+    globalCounter = myCounter = 0 ;
+
+    while(1)
+    {
+        gotOne = 0 ;
+        printf ("Waiting ISR PIN5... ") ; fflush (stdout) ;
+
+        while(1)
+        {
+                if (globalCounter != myCounter)
+                {
+                    printf (" Int on pin %d: Counter: %5d\n", 5, globalCounter) ;
+                    myCounter = globalCounter ;
+                    ++gotOne ;
+                }
+
+            if (gotOne != 0)
+                break ;
+        }
+
+        printf("+++ IS24C16 test starting +++\n");
+
+        if(i==0)
+            printf("IS24C16 start writing 0xaa from 0 to 2048\n");
+        else
+            printf("IS24C16 start writing 0x55 from 0 to 2048\n");
+
+        for(num=0; num<2048; num++)
+        {
+            printf(".");
+            if(i==0)
+                fr_i2cWrite(150, num, 0xaa);
+            else
+                fr_i2cWrite(150, num, 0x55);
+            delay (10) ;/* write cycle time*/
+        }
+        printf("\n");
+
+        printf("      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f\n");
+        for(num=0; num<2048; num++)
+        {
+            if(((num+1) % 16) == 1)
+                printf("%03x: %02x ", num/16, fr_i2cRead(150, num));
+            else if(((num+1) % 16) == 0)
+                printf("%02x\n",fr_i2cRead(150, num));
+            else
+                printf("%02x ",fr_i2cRead(150, num));
+            delay (1) ;
+        }
+        printf("\n+++ IS24C16 test stop +++\n");
+        if(++i > 1)
+            i=0;
+        printf("\n================STOP========================%d\n",i);
+    }
+    return NULL;
+}
+/*
  * mcp23017Setup:
  *	Create a new instance of an MCP23017 I2C GPIO interface. We know it
  *	has 16 pins, so all we need to know here is the I2C address and the
@@ -193,6 +274,7 @@ static char myI2CRead (struct wiringPiNodeStruct *node, int reg)
  */
 int is24c16Setup (const int pinBase, const int i2cAddress)
 {
+    pthread_t myThread ;
   int fd ;
   struct wiringPiNodeStruct *node ;
 
@@ -204,6 +286,11 @@ int is24c16Setup (const int pinBase, const int i2cAddress)
   node->fd              = fd ;
   node->i2cRead         = myI2CRead;
   node->i2cWrite        = myI2CWrite ;
+
+   if((pthread_create (&myThread, NULL, is24c16_thread, NULL)) != 0)
+        printf("The following error occured %s ", strerror(errno));
+    else
+        thread_is24c16 = myThread ;
 
   return 0 ;
 }

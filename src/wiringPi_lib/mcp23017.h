@@ -28,6 +28,7 @@ extern "C" {
 
 extern int mcp23017Setup (const int pinBase, const int i2cAddress) ;
 extern int is24c16Setup (const int pinBase, const int i2cAddress);
+extern void myInterrupt5 (void);
 
 #ifdef __cplusplus
 }

@@ -46,7 +46,7 @@ static PI_THREAD (fr_softServoThread)
                 continue ;
 
             digitalWrite (pin, HIGH) ;
-            myDelays [servo] = myDelays [servo] - lastDelay ;
+            myDelays [servo] = myDelays [servo] - lastDelay ;/* setting delay time. */
             lastDelay += myDelays [servo] ;
         }
 
@@ -78,13 +78,13 @@ static PI_THREAD (fr_softServoThread)
  *********************************************************************************
  */
 
-int fr_softServoSetup (int p1)
+int fr_softServoSetup (int p7)
 {
     int servo ;
 
-    if (p1 != -1) { pinMode (p1, OUTPUT) ; digitalWrite (p1, LOW) ; }
+    if (p7 != -1) { pinMode (p7, OUTPUT) ; digitalWrite (p7, LOW) ; }
 
-    pinMap[0] = p1 ;
+    pinMap[0] = p7 ;
 
     for (servo = 0 ; servo < MAX_SERVOS ; ++servo)
     {
